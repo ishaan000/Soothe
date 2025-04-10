@@ -9,7 +9,7 @@ export default function HomeScreen() {
   return (
     <FlatList
       data={meditations}
-      contentContainerClassName="gap-5 p-3 bg-white"
+      contentContainerClassName="gap-8 p-3 bg-white"
       renderItem={({ item }) => <MeditationListItem meditation={item} />}
     />
   );
