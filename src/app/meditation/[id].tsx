@@ -9,6 +9,7 @@ import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import Feather from "@expo/vector-icons/Feather";
 import Slider from "@react-native-community/slider";
 import { useAudioPlayer, useAudioPlayerStatus } from "expo-audio";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 import audio from "@assets/meditations/audio1.mp3";
 
@@ -32,6 +33,7 @@ export default function MeditationDetail() {
 
   return (
     <SafeAreaView className="bg-orange-400 flex-1 p-3">
+      <AnimatedBackground />
       {/*Page Content*/}
       <View className="flex-1">
         {/*Top part*/}
